@@ -1,0 +1,27 @@
+@media screen and (max-width:992px) {
+    #nav-bar .container a{
+        display: inline-block;
+    }
+    #nav-bar .container .avatar{
+        padding: 0px;
+    }
+    #nav-bar .container .avatar .dc{
+        display: none;
+    }
+    #nav-bar .container{
+        display: block;
+        max-width:992px;
+    }
+    /* chia gird cho tablet job-info*/
+    #job-info .row{
+        grid-template-columns: 1fr 1fr;
+    }
+    /* chinh img cho tablet certificate*/
+    #certificate .row img{
+        width: 100%;
+    }
+    #certificate .item234{
+        grid-template-columns: 1fr;
+        text-align: start;
+    }
+}

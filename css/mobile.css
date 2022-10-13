@@ -1,0 +1,79 @@
+@media screen and (max-width:576px) {
+    * td, th{
+        font-size: 10px;
+    }
+    * p{
+        font-size: 12px;
+    }
+    * h1{
+        font-size: 12px;
+    }
+    * {
+        margin: 0px;
+        line-height: 20px;
+    }
+    #banner{
+        max-width: 576px;
+        text-align: center;
+    }
+    #banner img{
+        max-width: 576px;
+        height: auto;
+    }
+    #nav-bar .container{
+        display: block;
+        max-width:576px;
+    }
+    #nav-bar .container a{
+        text-align: start;
+        display: block;
+    }
+    #nav-bar .container .avatar{
+        display: none;
+    }
+    #nav-bar .avatar .dc{
+        display: block;
+        visibility: hidden;
+    }
+    /* chia gird cho mb about*/
+    #about .row{
+        grid-template-columns: 1fr;
+    }
+    #about .row img{
+        max-width: 576px;
+    }
+    /* chia gird cho mb job-info*/
+    #job-info .row{
+        grid-template-columns: 1fr;
+    }
+    /* chia gird cho mb certificate*/
+    #certificate .row{
+        grid-template-columns: 1fr;
+    }
+    /* chinh cac class cho dung yeu cau*/
+    #certificate .row img{
+        width: 100%;
+    }
+    #certificate .item11, .item22, .item33, .item44{
+        grid-column:1/3;
+    }
+    #certificate .item22, .item33, .item44{      
+        text-align: center;
+        display: block;
+    }
+    #certificate .ul1{
+        padding-top: 60px;
+        text-align: start;
+    }
+    /* chia gird cho mb project*/
+    #project .row{
+        grid-template-columns: 1fr;
+    }
+    #certificate .item234{
+        grid-template-columns: 1fr;
+    }
+    #certificate .item111, .item222, .item333, .item444{
+        grid-column:1/4;
+        justify-content: center;
+    }
+}
